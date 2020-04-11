@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    min-height: 200vh;
+    box-sizing: border-box;
+}
+.rows{
+    display: inline-flex;
+}
+.header-class {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    transition: 0.6s;
+    z-index: 10000;
+  }
+  .sticky{
+    background-color: black;
+  }
+.nav-link{
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.navlink{
+    color: #f26222;
+}
+.nav-link:hover{
+    margin-top: 45px;
+    color: #f26222;
+}
+.logo{
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.icons{
+    display: flex;
+    margin-top: 60px;
+}
+.icons i {
+    color: white;
+    margin-left: 10px;
+    size: 5px;
+}
+.to-search{
+    margin-left: 40px;
+}
+.to-social {
+    margin-left: 50px;
+}
+.bg{
+    /* The image used */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.2)), url("4.jpg");
+
+    /* Half height */
+    width: 100%;
+    height: 800px;
+    top: 0;
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.title{
+    margin-left: 750px;
+    margin-top: 350px;
+    text-align: left;
+}
+.title h2{
+    color: white;
+    font-weight: normal;
+}
+.title p {
+    color: white;
+    font-size: 72px;
+}
+.title strong{
+    color: #f26222;
+}
+.title a{
+    background-color: #f26222;
+    border: none;
+    width: 120px;
+    border-radius: 0;
+}
+.title a:hover{
+    background-color: #f26222;
+    border: none;
+    width: 120px;
+    border-radius: 0;
+    margin-left: 10px;
+}
+/*-------------choose-----------------*/
+.choose{
+    text-align: center;
+    background-color: #0a0a0a;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    position: sticky;
+}
+.chooses{
+    display: flex;
+}
+.titles{
+    margin-top: 60px;
+}
+.titles h3{
+    color: #f26222;
+}
+.titles h1{
+    color: white;
+    font-weight: bold;
+}
+.equipment{
+    width: 450px;
+    height: 100%;
+    margin-left: 20px;
+}
+.dot {
+    height: 90px;
+    width: 90px;
+    background-color: #f26222;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 90px;
+  }
+  .equi{
+      width: 50px;
+      height: 50px;
+      margin-top: 15px;
+  }
+  .healthy{
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.gym{
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+}
+.cardio{
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+}
+.txt{
+    margin-top: 25px;
+}
+.txt h5 {
+    color: white;
+    font-weight: bold;
+}
+.txt p {
+    color: white;
+    opacity: 0.8;
+    font-weight: lighter;
+    font-size: 12px;
+}
+/*----------------------classes----------------------------*/
+.classes{
+    text-align: center;
+    background-color: #151515;
+    display: inline-block;
+    width: 100%;
+    height: 1050px;
+}
+.fyc{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.cards{
+    width: 300px;
+    margin-left: 50px;
+}
+.fitness-img {
+    width: 300px;
+    height: 240px;
+}
+.yoga-img {
+    width: 300px;
+    height: 240px;
+}
+.cardio-img {
+    width: 300px;
+    height: 240px;
+}
+.txt-sch{
+    background-color: #0a0a0a;
+    color: white;
+    text-align: left;
+    height: 80px;
+    border-top: 5px solid gray;
+}
+.txt-sch h5{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #f26222;
+}
+.txt-sch p{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.bgy{
+    display: flex;
+}
+.cardss{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.gym-img {
+    width: 450px;
+}
+.cardsss{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.box-img {
+    width: 500px;
+    height: 300px;
+}
+/*----------post------------*/
+.post{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.2)), url("7.jpg");
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+}
+.txt-post{
+    margin-top: 60px;
+    color: white;
+}
+.txt-post p {
+    font-size: 50px;
+    font-weight: bold;
+}
+.txt-post h2{
+    font-weight: normal;
+}
+.txt-post a{
+    background-color: transparent;
+    border: none;
+    width: 120px;
+    border-radius: 0;
+    border: 2px solid #f26222;
+    margin-top: 30px;
+}
+.txt-post a:hover{
+    background-color: #f26222;
+    border: none;
+}
+/*-----------------offers-------------------*/
+.offers{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+    display: inline-block;
+}
+.off_column {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.column{
+    background-color: transparent;
+    width: 30%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 60px;
+    border: 1px solid white;
+    transform: skewY(-4deg);
+}
+.col-info{
+    transform: skewY(4deg);
+}
+.column:hover{
+    background-color: white;
+    margin-top: 45px;
+}
+.column:hover .col-title{
+    color: #0a0a0a;
+}
+.column:hover a{
+    background-color: #f26222;
+}
+.col-title{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.price{
+    margin-top: 0px;
+    color: #f26222;
+    font-size: 50px;
+    font-weight: bold;
+}
+.col-features{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.single{
+    font-size: 18px;
+    font-weight: bold;
+    color: #303030;
+}
+
+.btn-det{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-det a{
+    background-color:#4e4e4e;
+    color: white;
+    width: 150px;
+    border: none;
+}
+.btn-det a:hover{
+    background-color:#f26222;
+    color: white;
+    width: 150px;
+    border: none;
+}
+
+.col-features div {
+    margin-bottom: 10px;
+    color: #303030;
+}
+/*-----------------Trainer-------------------*/
+.trainer{
+    background-color: #222222;
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+}
+.titless{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.titless h3{
+    color: #f26222;
+}
+.titless h1{
+    color: white;
+    font-weight: bold;
+}
+.img-t{
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+.img-tr{
+    width: 350px;
+    height: 450px;
+    display: block;
+}
+.img-t:hover .txt-schs{
+    opacity: 1;
+}
+.col-t{
+    margin-left: 30px;
+}
+.txt-schs{
+    background: #0a0a0a;
+    color: white;
+    text-align: center;
+    height: 100px;
+    border-top: 5px solid gray;
+    width: 350px;
+    transition: .5s ease;
+    opacity:0;
+    position: absolute;
+    bottom: 0px;
+}
+.txt-schs h5{
+    margin-top: 10px;
+    color: #f26222;
+
+}
+.txt-schs p{
+    font-weight: bold;
+}
+.column-t{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+/*-----------------footer-------------------*/
+.footer-a{
+    width: 100%;
+    height: 200px;
+    background-color: #0a0a0a;
+}
+.info-f{
+    display: inline-flex;
+    margin-top: 80px;
+}
+.icon-f{
+    margin-right: 25px;
+    margin-left: 30px;
+}
+.info-f p {
+    color: white;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.icon-f i{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #f26222;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-b {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: inline-block;
+}
+.info-b{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 100%;
+}
+.img-logo-b{
+    width: 35%;
+}
+.about-f{
+    width: 35%;
+}
+.about-f1{
+    width: 25%;
+    margin-left: 20px;
+}
+.about-f2{
+    width: 25%;
+    margin-left: 20px;
+}
+.about-f p{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.about-txt {
+    display: inline-block;
+    margin-top: 5px;
+}
+.news{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.title-f{
+    color: white;
+    font-weight: bold;
+}
+.card{
+    width: 50%;
+    background-color: transparent;
+    color: white;
+}
+.about-txt a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.about-txt a:hover{
+    color: #f26222;
+    text-decoration: none;
+    font-weight: normal;
+}
+.social i{
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid white;
+}
+.txt-footer {
+    margin-top: 20px;
+}
